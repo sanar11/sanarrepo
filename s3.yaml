@@ -7,4 +7,12 @@
                 Rules:
                 - ObjectOwnership: BucketOwnerPreferred
               AccessControl: AwsExecRead              
+                MybakupBucket:
+            Type: 'AWS::S3::Bucket'
+            Properties:
+              BucketName: bakup-bucket
+              OwnershipControls:
+                Rules:
+                - ObjectOwnership: BucketOwnerPreferred
+              AccessControl: AwsExecRead
       
