@@ -7,4 +7,4 @@ Resources:
       EnableDnsHostnames: 'true'
       Tags:
        - Key: stack
-         Value: Development
+         Value: staging
